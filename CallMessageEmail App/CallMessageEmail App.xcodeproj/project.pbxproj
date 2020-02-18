@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077240B123F69EED0080ADBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077240B023F69EED0080ADBF /* AppDelegate.swift */; };
+		077240B323F69EED0080ADBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077240B223F69EED0080ADBF /* ViewController.swift */; };
+		077240B623F69EED0080ADBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077240B423F69EED0080ADBF /* Main.storyboard */; };
+		077240B923F69EED0080ADBF /* CallMessageEmail_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 077240B723F69EED0080ADBF /* CallMessageEmail_App.xcdatamodeld */; };
+		077240BB23F69EEF0080ADBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077240BA23F69EEF0080ADBF /* Assets.xcassets */; };
+		077240BE23F69EEF0080ADBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077240BC23F69EEF0080ADBF /* LaunchScreen.storyboard */; };
+		077240C923F69EEF0080ADBF /* CallMessageEmail_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077240C823F69EEF0080ADBF /* CallMessageEmail_AppTests.swift */; };
+		077240D423F69EEF0080ADBF /* CallMessageEmail_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077240D323F69EEF0080ADBF /* CallMessageEmail_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077240C523F69EEF0080ADBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077240A523F69EED0080ADBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077240AC23F69EED0080ADBF;
+			remoteInfo = "CallMessageEmail App";
+		};
+		077240D023F69EEF0080ADBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077240A523F69EED0080ADBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077240AC23F69EED0080ADBF;
+			remoteInfo = "CallMessageEmail App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077240AD23F69EED0080ADBF /* CallMessageEmail App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CallMessageEmail App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077240B023F69EED0080ADBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077240B223F69EED0080ADBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077240B523F69EED0080ADBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077240B823F69EED0080ADBF /* CallMessageEmail_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CallMessageEmail_App.xcdatamodel; sourceTree = "<group>"; };
+		077240BA23F69EEF0080ADBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077240BD23F69EEF0080ADBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077240BF23F69EEF0080ADBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077240C423F69EEF0080ADBF /* CallMessageEmail AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CallMessageEmail AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077240C823F69EEF0080ADBF /* CallMessageEmail_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMessageEmail_AppTests.swift; sourceTree = "<group>"; };
+		077240CA23F69EEF0080ADBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077240CF23F69EEF0080ADBF /* CallMessageEmail AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CallMessageEmail AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077240D323F69EEF0080ADBF /* CallMessageEmail_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMessageEmail_AppUITests.swift; sourceTree = "<group>"; };
+		077240D523F69EEF0080ADBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077240AA23F69EED0080ADBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077240C123F69EEF0080ADBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077240CC23F69EEF0080ADBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077240A423F69EED0080ADBF = {
+			isa = PBXGroup;
+			children = (
+				077240AF23F69EED0080ADBF /* CallMessageEmail App */,
+				077240C723F69EEF0080ADBF /* CallMessageEmail AppTests */,
+				077240D223F69EEF0080ADBF /* CallMessageEmail AppUITests */,
+				077240AE23F69EED0080ADBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077240AE23F69EED0080ADBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077240AD23F69EED0080ADBF /* CallMessageEmail App.app */,
+				077240C423F69EEF0080ADBF /* CallMessageEmail AppTests.xctest */,
+				077240CF23F69EEF0080ADBF /* CallMessageEmail AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077240AF23F69EED0080ADBF /* CallMessageEmail App */ = {
+			isa = PBXGroup;
+			children = (
+				077240B023F69EED0080ADBF /* AppDelegate.swift */,
+				077240B223F69EED0080ADBF /* ViewController.swift */,
+				077240B423F69EED0080ADBF /* Main.storyboard */,
+				077240BA23F69EEF0080ADBF /* Assets.xcassets */,
+				077240BC23F69EEF0080ADBF /* LaunchScreen.storyboard */,
+				077240BF23F69EEF0080ADBF /* Info.plist */,
+				077240B723F69EED0080ADBF /* CallMessageEmail_App.xcdatamodeld */,
+			);
+			path = "CallMessageEmail App";
+			sourceTree = "<group>";
+		};
+		077240C723F69EEF0080ADBF /* CallMessageEmail AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				077240C823F69EEF0080ADBF /* CallMessageEmail_AppTests.swift */,
+				077240CA23F69EEF0080ADBF /* Info.plist */,
+			);
+			path = "CallMessageEmail AppTests";
+			sourceTree = "<group>";
+		};
+		077240D223F69EEF0080ADBF /* CallMessageEmail AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077240D323F69EEF0080ADBF /* CallMessageEmail_AppUITests.swift */,
+				077240D523F69EEF0080ADBF /* Info.plist */,
+			);
+			path = "CallMessageEmail AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077240AC23F69EED0080ADBF /* CallMessageEmail App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077240D823F69EEF0080ADBF /* Build configuration list for PBXNativeTarget "CallMessageEmail App" */;
+			buildPhases = (
+				077240A923F69EED0080ADBF /* Sources */,
+				077240AA23F69EED0080ADBF /* Frameworks */,
+				077240AB23F69EED0080ADBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CallMessageEmail App";
+			productName = "CallMessageEmail App";
+			productReference = 077240AD23F69EED0080ADBF /* CallMessageEmail App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077240C323F69EEF0080ADBF /* CallMessageEmail AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077240DB23F69EEF0080ADBF /* Build configuration list for PBXNativeTarget "CallMessageEmail AppTests" */;
+			buildPhases = (
+				077240C023F69EEF0080ADBF /* Sources */,
+				077240C123F69EEF0080ADBF /* Frameworks */,
+				077240C223F69EEF0080ADBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077240C623F69EEF0080ADBF /* PBXTargetDependency */,
+			);
+			name = "CallMessageEmail AppTests";
+			productName = "CallMessageEmail AppTests";
+			productReference = 077240C423F69EEF0080ADBF /* CallMessageEmail AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077240CE23F69EEF0080ADBF /* CallMessageEmail AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077240DE23F69EEF0080ADBF /* Build configuration list for PBXNativeTarget "CallMessageEmail AppUITests" */;
+			buildPhases = (
+				077240CB23F69EEF0080ADBF /* Sources */,
+				077240CC23F69EEF0080ADBF /* Frameworks */,
+				077240CD23F69EEF0080ADBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077240D123F69EEF0080ADBF /* PBXTargetDependency */,
+			);
+			name = "CallMessageEmail AppUITests";
+			productName = "CallMessageEmail AppUITests";
+			productReference = 077240CF23F69EEF0080ADBF /* CallMessageEmail AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077240A523F69EED0080ADBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = neeraja;
+				TargetAttributes = {
+					077240AC23F69EED0080ADBF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					077240C323F69EEF0080ADBF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 077240AC23F69EED0080ADBF;
+					};
+					077240CE23F69EEF0080ADBF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 077240AC23F69EED0080ADBF;
+					};
+				};
+			};
+			buildConfigurationList = 077240A823F69EED0080ADBF /* Build configuration list for PBXProject "CallMessageEmail App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077240A423F69EED0080ADBF;
+			productRefGroup = 077240AE23F69EED0080ADBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077240AC23F69EED0080ADBF /* CallMessageEmail App */,
+				077240C323F69EEF0080ADBF /* CallMessageEmail AppTests */,
+				077240CE23F69EEF0080ADBF /* CallMessageEmail AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077240AB23F69EED0080ADBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077240BE23F69EEF0080ADBF /* LaunchScreen.storyboard in Resources */,
+				077240BB23F69EEF0080ADBF /* Assets.xcassets in Resources */,
+				077240B623F69EED0080ADBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077240C223F69EEF0080ADBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077240CD23F69EEF0080ADBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077240A923F69EED0080ADBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077240B323F69EED0080ADBF /* ViewController.swift in Sources */,
+				077240B923F69EED0080ADBF /* CallMessageEmail_App.xcdatamodeld in Sources */,
+				077240B123F69EED0080ADBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077240C023F69EEF0080ADBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077240C923F69EEF0080ADBF /* CallMessageEmail_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077240CB23F69EEF0080ADBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077240D423F69EEF0080ADBF /* CallMessageEmail_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077240C623F69EEF0080ADBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077240AC23F69EED0080ADBF /* CallMessageEmail App */;
+			targetProxy = 077240C523F69EEF0080ADBF /* PBXContainerItemProxy */;
+		};
+		077240D123F69EEF0080ADBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077240AC23F69EED0080ADBF /* CallMessageEmail App */;
+			targetProxy = 077240D023F69EEF0080ADBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077240B423F69EED0080ADBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077240B523F69EED0080ADBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077240BC23F69EEF0080ADBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077240BD23F69EEF0080ADBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077240D623F69EEF0080ADBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077240D723F69EEF0080ADBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077240D923F69EEF0080ADBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CallMessageEmail App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "friends.CallMessageEmail-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077240DA23F69EEF0080ADBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CallMessageEmail App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "friends.CallMessageEmail-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		077240DC23F69EEF0080ADBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CallMessageEmail AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "friends.CallMessageEmail-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallMessageEmail App.app/CallMessageEmail App";
+			};
+			name = Debug;
+		};
+		077240DD23F69EEF0080ADBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CallMessageEmail AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "friends.CallMessageEmail-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallMessageEmail App.app/CallMessageEmail App";
+			};
+			name = Release;
+		};
+		077240DF23F69EEF0080ADBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CallMessageEmail AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "friends.CallMessageEmail-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CallMessageEmail App";
+			};
+			name = Debug;
+		};
+		077240E023F69EEF0080ADBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CallMessageEmail AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "friends.CallMessageEmail-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CallMessageEmail App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077240A823F69EED0080ADBF /* Build configuration list for PBXProject "CallMessageEmail App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077240D623F69EEF0080ADBF /* Debug */,
+				077240D723F69EEF0080ADBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077240D823F69EEF0080ADBF /* Build configuration list for PBXNativeTarget "CallMessageEmail App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077240D923F69EEF0080ADBF /* Debug */,
+				077240DA23F69EEF0080ADBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077240DB23F69EEF0080ADBF /* Build configuration list for PBXNativeTarget "CallMessageEmail AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077240DC23F69EEF0080ADBF /* Debug */,
+				077240DD23F69EEF0080ADBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077240DE23F69EEF0080ADBF /* Build configuration list for PBXNativeTarget "CallMessageEmail AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077240DF23F69EEF0080ADBF /* Debug */,
+				077240E023F69EEF0080ADBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		077240B723F69EED0080ADBF /* CallMessageEmail_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				077240B823F69EED0080ADBF /* CallMessageEmail_App.xcdatamodel */,
+			);
+			currentVersion = 077240B823F69EED0080ADBF /* CallMessageEmail_App.xcdatamodel */;
+			path = CallMessageEmail_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 077240A523F69EED0080ADBF /* Project object */;
+}
